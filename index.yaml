@@ -2,8 +2,8 @@ apiVersion: v1
 entries:
   opschain:
   - apiVersion: v2
-    appVersion: 2026.7.27
-    created: "2026-07-27T06:15:08.461129472Z"
+    appVersion: 2026.7.29
+    created: "2026-07-29T04:45:24.259390561Z"
     dependencies:
     - name: kong
       repository: https://charts.konghq.com
@@ -15,11 +15,11 @@ entries:
       repository: https://openbao.github.io/openbao-helm
       version: 0.19.1
     description: Opschain Helm Chart
-    digest: 2706de75986c482138a7c392581cfea090f2b1616eb8c116124fca3ffc6b8f77
+    digest: f27221609c7cbb7c7c413d4c6e1bd67470d49bee8a82fcfcc65df278085cf41a
     home: https://opschain.io
     name: opschain
     type: application
     urls:
-    - https://limepoint.github.io/opschain-helm-edge/opschain-2026.7.27.tgz
-    version: 2026.7.27
-generated: "2026-07-27T06:15:08.399859124Z"
+    - https://limepoint.github.io/opschain-helm-edge/opschain-2026.7.29.tgz
+    version: 2026.7.29
+generated: "2026-07-29T04:45:24.221821337Z"
