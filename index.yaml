@@ -2,8 +2,8 @@ apiVersion: v1
 entries:
   opschain:
   - apiVersion: v2
-    appVersion: 2026.8.7
-    created: "2026-08-07T03:11:57.724776409Z"
+    appVersion: 2026.8.9
+    created: "2026-08-09T23:05:29.308109109Z"
     dependencies:
     - name: kong
       repository: https://charts.konghq.com
@@ -14,16 +14,16 @@ entries:
     - name: openbao
       repository: https://openbao.github.io/openbao-helm
       version: 0.19.1
-    - condition: reloader.enabled
+    - condition: reloader.enabled,openbao.global.enabled
       name: reloader
       repository: https://stakater.github.io/stakater-charts
       version: 2.2.14
     description: Opschain Helm Chart
-    digest: c095a9f7c29ca1c13c18fc945f023de615c3db3245716de63a24d83fafee9c23
+    digest: 85453f57f9ebbaeec460f37e5dcf4ce00090f8a269c2f76f9416877d9a732c7c
     home: https://opschain.io
     name: opschain
     type: application
     urls:
-    - https://limepoint.github.io/opschain-helm-edge/opschain-2026.8.7.tgz
-    version: 2026.8.7
-generated: "2026-08-07T03:11:57.694854641Z"
+    - https://limepoint.github.io/opschain-helm-edge/opschain-2026.8.9.tgz
+    version: 2026.8.9
+generated: "2026-08-09T23:05:29.271599525Z"
