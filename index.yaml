@@ -2,8 +2,8 @@ apiVersion: v1
 entries:
   opschain:
   - apiVersion: v2
-    appVersion: 2026.10.23
-    created: "2026-10-23T20:10:15.710002606Z"
+    appVersion: 2026.10.26
+    created: "2026-10-26T07:43:36.149050993Z"
     dependencies:
     - name: kong
       repository: https://charts.konghq.com
@@ -19,11 +19,11 @@ entries:
       repository: https://stakater.github.io/stakater-charts
       version: 2.2.14
     description: Opschain Helm Chart
-    digest: 49c1b197ae3aba89f6048ca3c649413f5da55e03819f70bbee32aa6f5027d028
+    digest: b8f124faaccd6b7fffeb8a79878f7bf3ee2aa8db48aab16f49c513c017f51639
     home: https://opschain.io
     name: opschain
     type: application
     urls:
-    - https://limepoint.github.io/opschain-helm-edge/opschain-2026.10.23.tgz
-    version: 2026.10.23
-generated: "2026-10-23T20:10:15.652330269Z"
+    - https://limepoint.github.io/opschain-helm-edge/opschain-2026.10.26.tgz
+    version: 2026.10.26
+generated: "2026-10-26T07:43:36.120737535Z"
